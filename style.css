@@ -1,0 +1,42 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: #1F2937;
+}
+
+h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+#btn {
+    background-color: #3882F6;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-radius: 5px;
+    border: #3882F6;
+}
