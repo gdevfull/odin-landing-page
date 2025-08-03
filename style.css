@@ -64,7 +64,7 @@ a:hover{
     border-radius: 5px;
     border-width: 1px;
     font-size: 16px;
-    
+
     
 }
 
@@ -82,4 +82,170 @@ a:hover{
 
 .right {
     max-width: 50%;
+}
+
+.second-section {
+    background-color: #F9FAF8;
+    padding: 50px;
+
+}
+
+#info {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px 0 150px;
+    padding: 50px 50px 0 50px;
+    gap: 30px;
+    
+}
+.box-1 {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;    
+    
+}
+
+.box-2 {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;    
+    
+}
+
+.box-3 {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;    
+    
+}
+
+.box-4 {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882F6;
+    border-radius: 20px;    
+    
+}
+
+.text-boxes{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px 0 150px;
+    padding: 50px 50px 0 50px;
+}
+
+
+.text-boxes p {
+    color: #1F2937;
+    width: 200px;
+    display: flex;
+    
+    
+    
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    height: 450px;
+    
+    
+}
+
+.quote {
+    display: flex;
+    max-width: 50%;
+    justify-content: center;
+    margin: auto;
+    padding: auto;
+    padding-top: 120px;
+}
+
+.quote-author{
+    display: flex;
+    justify-content: end;
+    margin-right: 400px;
+    padding-bottom: 50px;
+
+}
+
+#quote-info {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    text-align: center;
+    
+    
+}
+
+#author{
+    color: #1F2937;
+}
+
+.fourth-section {
+    background-color: #F9FAF8;
+    height: 250px;
+}
+
+.box-call {
+    width: 60%;
+    height: 100px;
+    background-color: #3882F6;
+    margin: auto;
+    margin-top: 180px;
+    padding: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.left-call {
+    margin: auto;
+    padding: auto;
+}
+
+.right-call {
+    margin: auto;
+    padding: auto;
+}
+
+#call-is-time{
+    font-weight: bold;
+}
+
+.btn-call {
+    background-color: #3882F6;
+    width: 150px;
+    height: 40px;
+    border: 3px solid #F9FAF8;
+    border-radius: 5px;
+    color: #F9FAF8;
+    font-size: 16px;
+    
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    background-color: #1F2937;
+    height: 80px;
+}
+
+.footer p {
+    color: #E5E7EB;
+    text-align: center;
+    
 }
